@@ -65,8 +65,7 @@ demo = gr.Interface(
 <h3>Project by Parth - PIET (241504)</h3>
 <p>Enter the applicant's financial details to predict whether the loan will be approved.</p>
 """,
-    theme=gr.themes.Soft(),
-    allow_flagging="never",
+    theme=gr.themes.Soft()
 )
 
 if __name__ == "__main__":
