@@ -8,6 +8,9 @@ model = joblib.load("loan_approval_model.pkl")
 
 
 def predict_loan(
+    no_of_dependents,
+    education,
+    self_employed,
     income_annum,
     loan_amount,
     loan_term,
