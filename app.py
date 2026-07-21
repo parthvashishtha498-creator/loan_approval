@@ -19,6 +19,9 @@ def predict_loan(
 ):
     try:
         features = np.array([[
+            int(no_of_dependents),
+            int(education),
+            int(self_employed),
             float(income_annum),
             float(loan_amount),
             int(loan_term),
