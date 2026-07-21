@@ -50,6 +50,9 @@ def predict_loan(
 demo = gr.Interface(
     fn=predict_loan,
     inputs=[
+        gr.Number(label="No of Dependents"),
+        gr.Number(label="Education"),
+        gr.Number(label="Self Employed"),
         gr.Number(label="Income Per Annum"),
         gr.Number(label="Loan Amount"),
         gr.Number(label="Loan Term (Months)"),
