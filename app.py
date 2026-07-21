@@ -220,14 +220,12 @@ demo = gr.Interface(
 
     theme=gr.themes.Soft(),
 
-    css=custom_css,
-
-    allow_flagging="never"
+    css=custom_css
 )
 
-# ==========================
+
 # Launch App
-# ==========================
+
 
 if __name__ == "__main__":
     demo.launch(
